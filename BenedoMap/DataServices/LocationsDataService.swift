@@ -13,7 +13,7 @@ class LocationsDataService {
  static let locations: [Location] = [
         Location(
             name: "Colosseum",
-            cityName: "Rome",
+            cityName: "Roma",
             coordinates: CLLocationCoordinate2D(latitude: 41.8902, longitude: 12.4922),
             description: "The Colosseum is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is still the largest standing amphitheatre in the world today, despite its age.",
             imageNames: [

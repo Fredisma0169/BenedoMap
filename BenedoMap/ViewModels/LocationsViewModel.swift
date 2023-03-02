@@ -7,7 +7,7 @@
 
 import Foundation
 
-class LocationsViewModel: ObservableObject, Hashable {
+class LocationsViewModel: ObservableObject {
     
     @Published var locations: [Location]
     

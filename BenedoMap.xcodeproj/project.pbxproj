@@ -10,7 +10,6 @@
 		A05706F529B0CEAB002AE650 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05706F429B0CEAB002AE650 /* LocationView.swift */; };
 		A05706F729B0DBA9002AE650 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05706F629B0DBA9002AE650 /* LocationsViewModel.swift */; };
 		A0A71BD729B036AC00A70598 /* BenedoMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A71BD629B036AC00A70598 /* BenedoMapApp.swift */; };
-		A0A71BD929B036AC00A70598 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A71BD829B036AC00A70598 /* ContentView.swift */; };
 		A0A71BDE29B036B000A70598 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0A71BDD29B036B000A70598 /* Preview Assets.xcassets */; };
 		A0A71BE629B037C600A70598 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A71BE429B037C600A70598 /* LocationsDataService.swift */; };
 		A0A71BE729B037C600A70598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0A71BE529B037C600A70598 /* Assets.xcassets */; };
@@ -22,7 +21,6 @@
 		A05706F629B0DBA9002AE650 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 		A0A71BD329B036AC00A70598 /* BenedoMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BenedoMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0A71BD629B036AC00A70598 /* BenedoMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenedoMapApp.swift; sourceTree = "<group>"; };
-		A0A71BD829B036AC00A70598 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A0A71BDD29B036B000A70598 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A0A71BE429B037C600A70598 /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 		A0A71BE529B037C600A70598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				A0A71BD629B036AC00A70598 /* BenedoMapApp.swift */,
-				A0A71BD829B036AC00A70598 /* ContentView.swift */,
 				A0A71BF029B0B9CA00A70598 /* DataServices */,
 				A0A71BE929B0AD6600A70598 /* Models */,
 				A0A71BE829B0AD5300A70598 /* Views */,
@@ -181,7 +178,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0A71BD929B036AC00A70598 /* ContentView.swift in Sources */,
 				A05706F729B0DBA9002AE650 /* LocationsViewModel.swift in Sources */,
 				A0A71BD729B036AC00A70598 /* BenedoMapApp.swift in Sources */,
 				A05706F529B0CEAB002AE650 /* LocationView.swift in Sources */,
@@ -243,7 +239,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -297,7 +293,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -323,6 +319,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -352,6 +349,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

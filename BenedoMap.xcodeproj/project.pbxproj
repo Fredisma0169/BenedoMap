@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		A05706F529B0CEAB002AE650 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05706F429B0CEAB002AE650 /* LocationView.swift */; };
 		A05706F729B0DBA9002AE650 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05706F629B0DBA9002AE650 /* LocationsViewModel.swift */; };
+		A0723E8229B22F0C00678FBE /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0723E8129B22F0C00678FBE /* LocationListView.swift */; };
+		A0723E8429B27F6400678FBE /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0723E8329B27F6400678FBE /* LocationPreviewView.swift */; };
+		A0723E8629B2A48E00678FBE /*  LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0723E8529B2A48E00678FBE /*  LocationMapAnnotationView.swift */; };
+		A0723E8829B2B4E900678FBE /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0723E8729B2B4E900678FBE /* LocationDetailView.swift */; };
 		A0A71BD729B036AC00A70598 /* BenedoMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A71BD629B036AC00A70598 /* BenedoMapApp.swift */; };
 		A0A71BDE29B036B000A70598 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0A71BDD29B036B000A70598 /* Preview Assets.xcassets */; };
 		A0A71BE629B037C600A70598 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A71BE429B037C600A70598 /* LocationsDataService.swift */; };
@@ -17,8 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A0486D4729B3839700726F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A05706F429B0CEAB002AE650 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		A05706F629B0DBA9002AE650 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		A0723E8129B22F0C00678FBE /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
+		A0723E8329B27F6400678FBE /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		A0723E8529B2A48E00678FBE /*  LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " LocationMapAnnotationView.swift"; sourceTree = "<group>"; };
+		A0723E8729B2B4E900678FBE /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 		A0A71BD329B036AC00A70598 /* BenedoMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BenedoMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0A71BD629B036AC00A70598 /* BenedoMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenedoMapApp.swift; sourceTree = "<group>"; };
 		A0A71BDD29B036B000A70598 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -57,6 +66,7 @@
 		A0A71BD529B036AC00A70598 /* BenedoMap */ = {
 			isa = PBXGroup;
 			children = (
+				A0486D4729B3839700726F5D /* Info.plist */,
 				A0A71BD629B036AC00A70598 /* BenedoMapApp.swift */,
 				A0A71BF029B0B9CA00A70598 /* DataServices */,
 				A0A71BE929B0AD6600A70598 /* Models */,
@@ -80,6 +90,10 @@
 			isa = PBXGroup;
 			children = (
 				A05706F429B0CEAB002AE650 /* LocationView.swift */,
+				A0723E8129B22F0C00678FBE /* LocationListView.swift */,
+				A0723E8329B27F6400678FBE /* LocationPreviewView.swift */,
+				A0723E8529B2A48E00678FBE /*  LocationMapAnnotationView.swift */,
+				A0723E8729B2B4E900678FBE /* LocationDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,9 +192,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0723E8629B2A48E00678FBE /*  LocationMapAnnotationView.swift in Sources */,
 				A05706F729B0DBA9002AE650 /* LocationsViewModel.swift in Sources */,
+				A0723E8829B2B4E900678FBE /* LocationDetailView.swift in Sources */,
 				A0A71BD729B036AC00A70598 /* BenedoMapApp.swift in Sources */,
 				A05706F529B0CEAB002AE650 /* LocationView.swift in Sources */,
+				A0723E8229B22F0C00678FBE /* LocationListView.swift in Sources */,
+				A0723E8429B27F6400678FBE /* LocationPreviewView.swift in Sources */,
 				A0A71BEF29B0B43900A70598 /* Location.swift in Sources */,
 				A0A71BE629B037C600A70598 /* LocationsDataService.swift in Sources */,
 			);
@@ -314,11 +332,13 @@
 				DEVELOPMENT_TEAM = Z575CPQ33L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BenedoMap/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Benedo Map";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -344,11 +364,13 @@
 				DEVELOPMENT_TEAM = Z575CPQ33L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BenedoMap/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Benedo Map";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
